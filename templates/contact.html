@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <div class="card shadow">
+            <div class="card-header bg-success text-white">
+                <h2 class="mb-0">Contact DietGenie</h2>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="mb-4 text-success">Get in Touch</h3>
+                        <p>Have questions about our diet plans or need personalized nutrition advice? Reach out to our team of experts.</p>
+                        
+                        <div class="contact-info mt-5">
+                            <div class="d-flex mb-4">
+                                <i class="fas fa-map-marker-alt text-success me-3 mt-1"></i>
+                                <div>
+                                    <h5>Our Office</h5>
+                                    <p class="mb-0">Greater Noida, Alpha2 <br>Greater Noida 201310</p>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex mb-4">
+                                <i class="fas fa-phone-alt text-success me-3 mt-1"></i>
+                                <div>
+                                    <h5>Phone</h5>
+                                    <p class="mb-0">+91 8957876382<br>Mon-Fri, 9am-6pm</p>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex mb-4">
+                                <i class="fas fa-envelope text-success me-3 mt-1"></i>
+                                <div>
+                                    <h5>Email</h5>
+                                    <p class="mb-0">singhsaurabh34907@gmail.com<br>info@dietgenie.in</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-media mt-5">
+                            <h5 class="mb-3">Connect With Us</h5>
+                            <a href="#" class="btn btn-outline-success btn-sm me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="btn btn-outline-success btn-sm me-2"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-outline-success btn-sm me-2"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-outline-success btn-sm"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <h3 class="mb-4 text-success">Send Us a Message</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <select class="form-select" id="subject">
+                                    <option selected>General Inquiry</option>
+                                    <option>Diet Plan Questions</option>
+                                    <option>Technical Support</option>
+                                    <option>Partnership Opportunities</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="mt-5">
+                    <h4 class="text-success mb-3">Frequently Asked Questions</h4>
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    How accurate are the diet recommendations?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Our recommendations are based on established nutritional guidelines for the Indian population. However, for specific medical conditions, we recommend consulting with a registered dietitian or healthcare provider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    Can I get a diet plan for a specific health condition?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, our system takes into account common health conditions like diabetes, hypertension, etc. However, for complex medical conditions, personalized medical nutrition therapy from a professional is advised.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    Do you provide personalized coaching?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Currently, we provide automated diet plans. We're working on adding one-on-one nutrition coaching services in the near future.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

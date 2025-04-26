@@ -1,0 +1,33 @@
+region,bmi_category,dietary_preference,health_condition,breakfast,mid_morning_snack,lunch,evening_snack,dinner,calories,notes
+North,Underweight,Vegetarian,none,Paratha with curd,Fruit smoothie,Rajma Chawal,Toast with peanut butter,Chapati with paneer curry,2500,Increase protein intake
+North,Normal weight,Vegetarian,none,Chapati with vegetables,Fruits,Dal with rice,Yogurt with nuts,Vegetable khichdi,2000,Maintain balanced diet
+North,Overweight,Vegetarian,none,Oats with milk,Fruit salad,Roti with dal,Sprouts salad,Grilled vegetables with chapati,1800,Reduce oil and carbs
+North,Obese,Vegetarian,none,Vegetable poha,Green tea,Roti with vegetable curry,Fruit,Grilled paneer with salad,1500,Low calorie diet
+North,Underweight,Non-Vegetarian,none,Egg omelette with toast,Milk with nuts,Chicken curry with rice,Fruit,Chapati with fish curry,2700,High protein diet
+North,Normal weight,Non-Vegetarian,none,Scrambled eggs,Fruit,Chicken biryani,Buttermilk,Grilled chicken with vegetables,2200,Protein rich balanced diet
+North,Overweight,Non-Vegetarian,none,Boiled eggs,Green tea,Grilled chicken with salad,Yogurt,Fish curry with brown rice,1900,Low fat high protein
+North,Obese,Non-Vegetarian,none,Egg whites,Herbal tea,Grilled fish with vegetables,Fruit,Boiled chicken with soup,1600,Strict low calorie
+South,Underweight,Vegetarian,none,Dosa with sambar,Fruit juice,Rice with sambar and vegetables,Coconut water,Idli with chutney,2600,High carb diet
+South,Normal weight,Vegetarian,none,Idli with chutney,Fruits,Rice with rasam and vegetables,Buttermilk,Dosa with sambar,2100,Traditional balanced diet
+South,Overweight,Vegetarian,none,Upma,Fruit salad,Rice with dal,Yogurt,Pongal with vegetables,1800,Reduced oil
+South,Obese,Vegetarian,none,Ragi porridge,Green tea,Vegetable curry with brown rice,Fruit,Vegetable soup with toast,1500,Low carb diet
+South,Underweight,Non-Vegetarian,none,Egg dosa,Fruit milkshake,Chicken biryani,Buttermilk,Fish curry with rice,2800,High protein high carb
+South,Normal weight,Non-Vegetarian,none,Egg omelette,Fruits,Chicken curry with rice,Yogurt,Grilled fish with vegetables,2200,Protein rich
+South,Overweight,Non-Vegetarian,none,Boiled eggs,Fruit salad,Grilled chicken with rice,Sprouts salad,Fish curry with brown rice,1900,Low fat
+South,Obese,Non-Vegetarian,none,Egg whites,Herbal tea,Grilled fish with salad,Fruit,Boiled chicken with soup,1600,Strict diet
+East,Underweight,Vegetarian,none,Luchi with aloo dum,Fruit juice,Rice with dal and vegetables,Milk,Mishti doi with roti,2500,High calorie
+East,Normal weight,Vegetarian,none,Roti with sabzi,Fruits,Rice with dal,Yogurt,Vegetable khichdi,2000,Traditional diet
+East,Overweight,Vegetarian,none,Poha,Fruit salad,Roti with vegetables,Sprouts salad,Vegetable soup,1800,Light diet
+East,Obese,Vegetarian,none,Suji upma,Green tea,Dal with brown rice,Fruit,Boiled vegetables,1500,Low calorie
+East,Underweight,Non-Vegetarian,none,Egg roll,Milk shake,Fish curry with rice,Fruit,Chicken curry with luchi,2700,High protein
+East,Normal weight,Non-Vegetarian,none,Egg toast,Fruits,Fish curry with rice,Buttermilk,Chicken with roti,2200,Protein rich
+East,Overweight,Non-Vegetarian,none,Boiled eggs,Fruit salad,Grilled fish with rice,Yogurt,Chicken soup,1900,Low fat
+East,Obese,Non-Vegetarian,none,Egg whites,Herbal tea,Boiled fish with vegetables,Fruit,Grilled chicken with salad,1600,Strict diet
+West,Underweight,Vegetarian,none,Poha with peanuts,Fruit juice,Thalipeeth with vegetables,Milk with nuts,Shrikhand with puri,2600,High calorie
+West,Normal weight,Vegetarian,none,Upma,Fruits,Missal pav,Yogurt,Dal khichdi,2100,Traditional
+West,Overweight,Vegetarian,none,Dalia,Fruit salad,Roti with vegetables,Sprouts salad,Vegetable soup,1800,Light
+West,Obese,Vegetarian,none,Sabudana khichdi,Green tea,Vegetable curry with jowar roti,Fruit,Salad with soup,1500,Low carb
+West,Underweight,Non-Vegetarian,none,Egg bhurji with pav,Fruit milkshake,Chicken thali,Buttermilk,Fish curry with rice,2800,High protein
+West,Normal weight,Non-Vegetarian,none,Egg omelette,Fruits,Chicken curry with rice,Yogurt,Grilled fish with vegetables,2200,Protein rich
+West,Overweight,Non-Vegetarian,none,Boiled eggs,Fruit salad,Grilled chicken with roti,Sprouts salad,Fish curry with brown rice,1900,Low fat
+West,Obese,Non-Vegetarian,none,Egg whites,Herbal tea,Grilled fish with salad,Fruit,Boiled chicken with soup,1600,Strict diet
